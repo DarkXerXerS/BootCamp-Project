@@ -53,12 +53,6 @@ header p {
   width: 90%;
   padding: 15px 5px;
   background-color: rgb(249, 250, 249);
-  /* margin: 0 auto; */
-  /* height: 55px; */
-  /* background-color: #fff; */
-  /* gap: 100px; */
-  /* margin-bottom: 90px; */
-  /* background-color: red; */
 }
 
 .form input {
@@ -232,11 +226,40 @@ input[placeholder*="Email Address"] {
     display: flex;
     flex-direction: column;
     gap: 80px;
-    /* margin: 0px 90px; */
-  
     justify-content: space-evenly;
-    /* gap: 20px 100px; */
-    /* border: solid 2px red; */
     flex-shrink: inherit;
   }
+
+  header h1 {
+    font-size: 2rem;
+    background-color: rgb(26, 31, 26);
+    color: white;
+  }
+
+  .form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 15px 5px;
+    background-color: rgb(249, 250, 249);
+  }
+
+  .form input {
+    width: 38%;
+  }
+
+  .submit {
+    padding: 0.5rem 2rem;
+    position: absolute;
+    right: 33px;
+    /* margin-left: 10px; */
+    /* padding-right: 30px; */
+    text-align: center;
+    color: white;
+    background-color: rgb(82, 163, 80);
+    border: none;
+    cursor: pointer;
+  }
+  
 }
