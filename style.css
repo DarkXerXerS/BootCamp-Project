@@ -222,4 +222,21 @@ input[placeholder*="Email Address"] {
 
 @media (max-width: 760px) {
 
+  .container_1 {
+    background-color: rgb(26, 31, 26);
+    margin-top: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .container_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    /* margin: 0px 90px; */
+  
+    justify-content: space-evenly;
+    /* gap: 20px 100px; */
+    /* border: solid 2px red; */
+    flex-shrink: inherit;
+  }
 }
